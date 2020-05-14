@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A3B9A2A26C1D8D3AEBC060 /* Pods_PhableCareTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E14FD65221C8BAF49A7B520 /* Pods_PhableCareTaskTests.framework */; };
+		897322B8246BBCC3005E92A9 /* ContactsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897322B7246BBCC3005E92A9 /* ContactsViewCell.swift */; };
+		897322BA246BCBFF005E92A9 /* CreateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897322B9246BCBFF005E92A9 /* CreateContactViewController.swift */; };
+		897322BC246BCDBC005E92A9 /* CreateContactViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897322BB246BCDBC005E92A9 /* CreateContactViewCell.swift */; };
+		897322BF246BDEEF005E92A9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897322BE246BDEEF005E92A9 /* Contact.swift */; };
 		89B47DFA246BAD7B00CDA1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B47DF9246BAD7B00CDA1F4 /* AppDelegate.swift */; };
 		89B47DFC246BAD7B00CDA1F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B47DFB246BAD7B00CDA1F4 /* SceneDelegate.swift */; };
-		89B47DFE246BAD7B00CDA1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B47DFD246BAD7B00CDA1F4 /* ViewController.swift */; };
-		89B47E01246BAD7C00CDA1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B47DFF246BAD7C00CDA1F4 /* Main.storyboard */; };
 		89B47E04246BAD7C00CDA1F4 /* PhableCareTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89B47E02246BAD7C00CDA1F4 /* PhableCareTask.xcdatamodeld */; };
 		89B47E06246BAD8100CDA1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B47E05246BAD8100CDA1F4 /* Assets.xcassets */; };
 		89B47E09246BAD8100CDA1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B47E07246BAD8100CDA1F4 /* LaunchScreen.storyboard */; };
 		89B47E14246BAD8100CDA1F4 /* PhableCareTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B47E13246BAD8100CDA1F4 /* PhableCareTaskTests.swift */; };
+		89B47E20246BB40900CDA1F4 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B47E1F246BB40900CDA1F4 /* ContactsViewController.swift */; };
+		89D6C35B246DB4A600D454FD /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6C35A246DB4A600D454FD /* Database.swift */; };
+		89D6C35D246DBE7800D454FD /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6C35C246DBE7800D454FD /* FetchRequest.swift */; };
+		89D6C35F246DCC2800D454FD /* Contac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6C35E246DCC2800D454FD /* Contac.swift */; };
+		E5B112D2B3BF365DD09FDE73 /* Pods_PhableCareTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E397C44EA345E0E637FB54B8 /* Pods_PhableCareTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E14FD65221C8BAF49A7B520 /* Pods_PhableCareTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhableCareTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F6861514B9C0468A86A4F6 /* Pods-PhableCareTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhableCareTask.release.xcconfig"; path = "Target Support Files/Pods-PhableCareTask/Pods-PhableCareTask.release.xcconfig"; sourceTree = "<group>"; };
+		42736032F72941E777835DE6 /* Pods-PhableCareTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhableCareTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-PhableCareTaskTests/Pods-PhableCareTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83758E4114884D5F1839A3AB /* Pods-PhableCareTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhableCareTask.debug.xcconfig"; path = "Target Support Files/Pods-PhableCareTask/Pods-PhableCareTask.debug.xcconfig"; sourceTree = "<group>"; };
+		897322B7246BBCC3005E92A9 /* ContactsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewCell.swift; sourceTree = "<group>"; };
+		897322B9246BCBFF005E92A9 /* CreateContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContactViewController.swift; sourceTree = "<group>"; };
+		897322BB246BCDBC005E92A9 /* CreateContactViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContactViewCell.swift; sourceTree = "<group>"; };
+		897322BE246BDEEF005E92A9 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		89B47DF6246BAD7B00CDA1F4 /* PhableCareTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhableCareTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B47DF9246BAD7B00CDA1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B47DFB246BAD7B00CDA1F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89B47DFD246BAD7B00CDA1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		89B47E00246BAD7C00CDA1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89B47E03246BAD7C00CDA1F4 /* PhableCareTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhableCareTask.xcdatamodel; sourceTree = "<group>"; };
 		89B47E05246BAD8100CDA1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B47E08246BAD8100CDA1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +54,12 @@
 		89B47E0F246BAD8100CDA1F4 /* PhableCareTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhableCareTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B47E13246BAD8100CDA1F4 /* PhableCareTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhableCareTaskTests.swift; sourceTree = "<group>"; };
 		89B47E15246BAD8100CDA1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B47E1F246BB40900CDA1F4 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		89D6C35A246DB4A600D454FD /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		89D6C35C246DBE7800D454FD /* FetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
+		89D6C35E246DCC2800D454FD /* Contac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contac.swift; sourceTree = "<group>"; };
+		AB275ECF720B007ED66AC90A /* Pods-PhableCareTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhableCareTaskTests.release.xcconfig"; path = "Target Support Files/Pods-PhableCareTaskTests/Pods-PhableCareTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		E397C44EA345E0E637FB54B8 /* Pods_PhableCareTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhableCareTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B112D2B3BF365DD09FDE73 /* Pods_PhableCareTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +75,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A3B9A2A26C1D8D3AEBC060 /* Pods_PhableCareTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FC9000FECB9FE93230B678E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83758E4114884D5F1839A3AB /* Pods-PhableCareTask.debug.xcconfig */,
+				35F6861514B9C0468A86A4F6 /* Pods-PhableCareTask.release.xcconfig */,
+				42736032F72941E777835DE6 /* Pods-PhableCareTaskTests.debug.xcconfig */,
+				AB275ECF720B007ED66AC90A /* Pods-PhableCareTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		897322B6246BBCA8005E92A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				897322B7246BBCC3005E92A9 /* ContactsViewCell.swift */,
+				897322BB246BCDBC005E92A9 /* CreateContactViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		897322BD246BDEDB005E92A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				897322BE246BDEEF005E92A9 /* Contact.swift */,
+				89D6C35E246DCC2800D454FD /* Contac.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		89B47DED246BAD7B00CDA1F4 = {
 			isa = PBXGroup;
 			children = (
 				89B47DF8246BAD7B00CDA1F4 /* PhableCareTask */,
 				89B47E12246BAD8100CDA1F4 /* PhableCareTaskTests */,
 				89B47DF7246BAD7B00CDA1F4 /* Products */,
+				7FC9000FECB9FE93230B678E /* Pods */,
+				D0971C8C6511BAD10D713316 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +134,18 @@
 		89B47DF8246BAD7B00CDA1F4 /* PhableCareTask */ = {
 			isa = PBXGroup;
 			children = (
+				897322BD246BDEDB005E92A9 /* Model */,
+				897322B6246BBCA8005E92A9 /* View */,
+				89B47E1E246BB3E000CDA1F4 /* ViewControllers */,
+				89BA921F246DDEE700583DFC /* Dependencies */,
 				89B47DF9246BAD7B00CDA1F4 /* AppDelegate.swift */,
 				89B47DFB246BAD7B00CDA1F4 /* SceneDelegate.swift */,
-				89B47DFD246BAD7B00CDA1F4 /* ViewController.swift */,
-				89B47DFF246BAD7C00CDA1F4 /* Main.storyboard */,
 				89B47E05246BAD8100CDA1F4 /* Assets.xcassets */,
 				89B47E07246BAD8100CDA1F4 /* LaunchScreen.storyboard */,
 				89B47E0A246BAD8100CDA1F4 /* Info.plist */,
 				89B47E02246BAD7C00CDA1F4 /* PhableCareTask.xcdatamodeld */,
+				89D6C35A246DB4A600D454FD /* Database.swift */,
+				89D6C35C246DBE7800D454FD /* FetchRequest.swift */,
 			);
 			path = PhableCareTask;
 			sourceTree = "<group>";
@@ -102,6 +159,31 @@
 			path = PhableCareTaskTests;
 			sourceTree = "<group>";
 		};
+		89B47E1E246BB3E000CDA1F4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89B47E1F246BB40900CDA1F4 /* ContactsViewController.swift */,
+				897322B9246BCBFF005E92A9 /* CreateContactViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		89BA921F246DDEE700583DFC /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		D0971C8C6511BAD10D713316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E397C44EA345E0E637FB54B8 /* Pods_PhableCareTask.framework */,
+				2E14FD65221C8BAF49A7B520 /* Pods_PhableCareTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89B47E18246BAD8100CDA1F4 /* Build configuration list for PBXNativeTarget "PhableCareTask" */;
 			buildPhases = (
+				2901F7561AE64DC5127FD025 /* [CP] Check Pods Manifest.lock */,
 				89B47DF2246BAD7B00CDA1F4 /* Sources */,
 				89B47DF3246BAD7B00CDA1F4 /* Frameworks */,
 				89B47DF4246BAD7B00CDA1F4 /* Resources */,
+				B2269699F3DD6CDEB864D2B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89B47E1B246BAD8100CDA1F4 /* Build configuration list for PBXNativeTarget "PhableCareTaskTests" */;
 			buildPhases = (
+				B568A497FEE8252903E12AFA /* [CP] Check Pods Manifest.lock */,
 				89B47E0B246BAD8100CDA1F4 /* Sources */,
 				89B47E0C246BAD8100CDA1F4 /* Frameworks */,
 				89B47E0D246BAD8100CDA1F4 /* Resources */,
@@ -185,7 +270,6 @@
 			files = (
 				89B47E09246BAD8100CDA1F4 /* LaunchScreen.storyboard in Resources */,
 				89B47E06246BAD8100CDA1F4 /* Assets.xcassets in Resources */,
-				89B47E01246BAD7C00CDA1F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,15 +282,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2901F7561AE64DC5127FD025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhableCareTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2269699F3DD6CDEB864D2B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhableCareTask/Pods-PhableCareTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhableCareTask/Pods-PhableCareTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhableCareTask/Pods-PhableCareTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B568A497FEE8252903E12AFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhableCareTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89B47DF2246BAD7B00CDA1F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B47DFE246BAD7B00CDA1F4 /* ViewController.swift in Sources */,
+				89D6C35D246DBE7800D454FD /* FetchRequest.swift in Sources */,
+				89D6C35F246DCC2800D454FD /* Contac.swift in Sources */,
 				89B47E04246BAD7C00CDA1F4 /* PhableCareTask.xcdatamodeld in Sources */,
 				89B47DFA246BAD7B00CDA1F4 /* AppDelegate.swift in Sources */,
+				89B47E20246BB40900CDA1F4 /* ContactsViewController.swift in Sources */,
+				897322B8246BBCC3005E92A9 /* ContactsViewCell.swift in Sources */,
+				897322BF246BDEEF005E92A9 /* Contact.swift in Sources */,
 				89B47DFC246BAD7B00CDA1F4 /* SceneDelegate.swift in Sources */,
+				89D6C35B246DB4A600D454FD /* Database.swift in Sources */,
+				897322BC246BCDBC005E92A9 /* CreateContactViewCell.swift in Sources */,
+				897322BA246BCBFF005E92A9 /* CreateContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,14 +384,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		89B47DFF246BAD7C00CDA1F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89B47E00246BAD7C00CDA1F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		89B47E07246BAD8100CDA1F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,6 +511,7 @@
 		};
 		89B47E19246BAD8100CDA1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83758E4114884D5F1839A3AB /* Pods-PhableCareTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +529,7 @@
 		};
 		89B47E1A246BAD8100CDA1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F6861514B9C0468A86A4F6 /* Pods-PhableCareTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +547,7 @@
 		};
 		89B47E1C246BAD8100CDA1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42736032F72941E777835DE6 /* Pods-PhableCareTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +569,7 @@
 		};
 		89B47E1D246BAD8100CDA1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB275ECF720B007ED66AC90A /* Pods-PhableCareTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
